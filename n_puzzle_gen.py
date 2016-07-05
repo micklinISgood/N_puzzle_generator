@@ -18,14 +18,11 @@ def puzzle_generator(n,complexity):
 		n=int(n)
 	   	x=n**2
 		l=range(0,x)
-		#print l.index(0)
-	  	    		
-	 	for i in range(1,int(complexity)*3):
-			#pass
-	
-			# find 0
-			cur_pos =l.index(0)
 
+		cur_pos=0
+		
+	 	for i in range(1,int(complexity)*3):
+	
 			# up,down,left.right
 			y=random.randint(1,4)
 
@@ -38,6 +35,7 @@ def puzzle_generator(n,complexity):
 					tmp=l[up_pos]
 					l[up_pos]=0
 					l[cur_pos]=tmp
+					cur_pos=up_pos
 										
 			elif y==2:
 				down_pos=cur_pos+n
@@ -47,17 +45,20 @@ def puzzle_generator(n,complexity):
 					tmp=l[down_pos]
 					l[down_pos]=0
 					l[cur_pos]=tmp
+					cur_pos=down_pos
+
 								
 			
 			elif y==3:
-
 				left_pos=cur_pos-1
 	
 				# is legal to move left, swap
 				if(cur_pos%n)!=0:
 					tmp=l[left_pos]
 					l[left_pos]=0
-					l[cur_pos]=tmp			
+					l[cur_pos]=tmp
+					cur_pos=left_pos
+			
 
 			else:
 				right_pos=cur_pos+1
@@ -66,7 +67,9 @@ def puzzle_generator(n,complexity):
 				if(cur_pos%n)!= n-1:
 					tmp=l[right_pos]
 					l[right_pos]=0
-					l[cur_pos]=tmp	
+					l[cur_pos]=tmp
+					cur_pos=right_pos
+	
 			
 			
 
