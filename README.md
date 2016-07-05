@@ -21,7 +21,7 @@ For example,
 
 which is unsolvable.
 
-Therefore, this work guarrantees you will get a sovable n_puzzle.
+Therefore, this work guarrantees you a sovable n_puzzle.
 
 Enjoy.
 
