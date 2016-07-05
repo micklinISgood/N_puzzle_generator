@@ -8,27 +8,16 @@ Return will be a 3*3 puzzle like: 1,4,2,3,5,0,6,7,8
 
 N_puzzle problem:
 
-            1 0
-            2 3      
+            1 0         to          0 1
+            2 3                     2 3
 
-            to
-      
-0 1
-
-2 3
       
 However, not all combinations of numbers are solvable for a n_puzzle because of its moving rule.
 For example,
 
-2 0
+            2 0         to          0 1
+            1 3                     2 3
 
-1 3      
-
-            to 
-      
-0 1
-
-2 3
 
 which is unsolvable.
 
