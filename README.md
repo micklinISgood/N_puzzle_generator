@@ -11,7 +11,8 @@ N_puzzle problem:
 1 0
 
 2 3      
-      to
+
+            to
       
 0 1
 
@@ -23,7 +24,8 @@ For example,
 2 0
 
 1 3      
-      to 
+
+            to 
       
 0 1
 
