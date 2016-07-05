@@ -4,7 +4,7 @@ Usage: python dim complexity
 
 Example: python n_puzzle_gen.py 3 3
 
-Return will be a 3*3 puzzle like: 1,4,2,3,5,0,6,7,8
+Return will be a 3*3 puzzle like: 7,0,4,2,3,6,8,5,1
 
 N_puzzle problem:
 
