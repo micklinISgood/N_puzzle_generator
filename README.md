@@ -8,9 +8,8 @@ Return will be a 3*3 puzzle like: 1,4,2,3,5,0,6,7,8
 
 N_puzzle problem:
 
-1 0
-
-2 3      
+            1 0
+            2 3      
 
             to
       
