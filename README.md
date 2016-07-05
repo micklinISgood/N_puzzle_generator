@@ -2,7 +2,7 @@
 
 Usage: python dim complexity
 
-Example: python n_puzzle_gen.py 3 3
+            python n_puzzle_gen.py 3 3
 
 Return will be a 3*3 puzzle like: 1,2,5,3,4,8,6,7,0
 
