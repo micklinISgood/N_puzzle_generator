@@ -31,11 +31,9 @@ Here is a ready example:
 
 --IDA*--
 
-[7, 0, 4]
-
-[2, 3, 6]
-
-[8, 5, 1]
+            7, 0, 4
+            2, 3, 6
+            8, 5, 1
 
 MAX FRINGE SIZE:     61
 
