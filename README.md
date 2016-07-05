@@ -7,26 +7,34 @@ Return will be a 3*3 puzzle like: 1,4,2,3,5,0,6,7,8
 
 N_puzzle problem:
 
-1 0       0 1
-2 3       2 3
-      to   
+1 0 
+2 3      
+      to 
+0 1
+2 3
       
 However, not all combinations of numbers are solvable for a n_puzzle because of its moving rule.
 For example,
 
-2 0       0 1
-1 3       2 3
+2 0
+1 3      
       to 
+0 1
+2 3
 
 which is unsolvable.
 
 Here are some ready examples:
 
 7,0,4,2,3,6,8,5,1
+
 --IDA*--
 [7, 0, 4]
+
 [2, 3, 6]
+
 [8, 5, 1]
+
 MAX FRINGE SIZE:     61
 MAX STACK DEPTH:     22
 STACK DEPTH:         22
@@ -52,4 +60,5 @@ COST OF PATH :       46
 PATH :               ['UP', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'DOWN', 'RIGHT', 'UP', 'UP', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'DOWN', 'RIGHT', 'UP', 'UP', 'UP', 'LEFT', 'LEFT', 'DOWN', 'DOWN', 'RIGHT', 'DOWN', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'LEFT', 'LEFT', 'UP'] 
 
 Therefore, this work guarrantees you will get a sovable n_puzzle.
+
 Enjoy.
