@@ -4,7 +4,7 @@ Usage: python dim complexity
 
 Example: python n_puzzle_gen.py 3 3
 
-Return will be a 3*3 puzzle like: 7,0,4,2,3,6,8,5,1
+Return will be a 3*3 puzzle like: 1,2,5,3,4,8,6,7,0
 
 N_puzzle problem:
 
@@ -25,28 +25,28 @@ Therefore, this work guarrantees you will get a sovable n_puzzle.
 
 Enjoy.
 
-Here is a ready example:
+Here is a handy example:
 
-7,0,4,2,3,6,8,5,1
+1,2,5,3,4,8,6,7,0
 
 --IDA*--
 
-            7, 0, 4
-            2, 3, 6
-            8, 5, 1
+            [1, 2, 5]
+            [3, 4, 8]
+            [6, 7, 0]
 
-MAX FRINGE SIZE:     61
+MAX FRINGE SIZE:     1
 
-MAX STACK DEPTH:     22
+MAX STACK DEPTH:     5
 
-STACK DEPTH:         22
+STACK DEPTH:         5
 
-NODES EXPANDED:      76
+NODES EXPANDED:      4
 
-RUNNING TIME:        17.078876 ms
+RUNNING TIME:        2.820015 ms 
 
-MEMORY USAGE :       20480 bytes
+MEMORY USAGE :       20480 bytes 
 
-COST OF PATH :       21 
+COST OF PATH :       4 
 
-PATH :               ['DOWN', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'RIGHT', 'RIGHT', 'UP', 'LEFT', 'DOWN', 'RIGHT', 'DOWN', 'LEFT', 'LEFT', 'UP', 'UP']
+PATH :               ['UP', 'UP', 'LEFT', 'LEFT'] 
